@@ -24,8 +24,16 @@ function doubleScore() {
 
 function tripleScore() {
   if (score > 999) {
-    setInterval(countScore, 10);
+    setInterval(countScore, 250);
     score = score - 1000;
+    showScore.textContent = score + " " + "🍪";
+  }
+}
+
+function rocketScore() {
+  if (score > 9999) {
+    setInterval(countScore, 1);
+    score = score - 10000;
     showScore.textContent = score + " " + "🍪";
   }
 }
