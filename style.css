@@ -13,6 +13,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #1f2421;
+}
+
+#score {
+  color: white;
 }
 
 #cookie {
